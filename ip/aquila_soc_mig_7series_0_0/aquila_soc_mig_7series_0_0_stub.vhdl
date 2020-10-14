@@ -1,7 +1,7 @@
 -- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
--- Date        : Wed Oct 14 15:21:29 2020
+-- Date        : Wed Oct 14 13:05:13 2020
 -- Host        : Neptunium running 64-bit Ubuntu 18.04.5 LTS
 -- Command     : write_vhdl -force -mode synth_stub -rename_top aquila_soc_mig_7series_0_0 -prefix
 --               aquila_soc_mig_7series_0_0_ aquila_soc_mig_7series_0_0_stub.vhdl

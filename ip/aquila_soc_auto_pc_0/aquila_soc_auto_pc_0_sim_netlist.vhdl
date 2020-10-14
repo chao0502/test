@@ -1,7 +1,7 @@
 -- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
--- Date        : Wed Oct 14 15:19:59 2020
+-- Date        : Wed Oct 14 13:03:40 2020
 -- Host        : Neptunium running 64-bit Ubuntu 18.04.5 LTS
 -- Command     : write_vhdl -force -mode funcsim -rename_top aquila_soc_auto_pc_0 -prefix
 --               aquila_soc_auto_pc_0_ aquila_soc_auto_pc_0_sim_netlist.vhdl

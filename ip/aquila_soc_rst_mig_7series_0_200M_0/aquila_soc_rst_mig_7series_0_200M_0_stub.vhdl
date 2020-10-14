@@ -1,10 +1,10 @@
 -- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
--- Date        : Wed Oct 14 15:19:25 2020
+-- Date        : Wed Oct 14 13:03:01 2020
 -- Host        : Neptunium running 64-bit Ubuntu 18.04.5 LTS
 -- Command     : write_vhdl -force -mode synth_stub
---               /home/hahaha/riscv/SD_card/Aquila/test_4/aquila-master/hw/aquila_soc/aquila_soc.srcs/sources_1/bd/aquila_soc/ip/aquila_soc_rst_mig_7series_0_200M_0/aquila_soc_rst_mig_7series_0_200M_0_stub.vhdl
+--               /home/hahaha/riscv/SD_card/Aquila/test_2/aquila-master/hw/aquila_soc/aquila_soc.srcs/sources_1/bd/aquila_soc/ip/aquila_soc_rst_mig_7series_0_200M_0/aquila_soc_rst_mig_7series_0_200M_0_stub.vhdl
 -- Design      : aquila_soc_rst_mig_7series_0_200M_0
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7k325tffg900-2
