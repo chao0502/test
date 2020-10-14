@@ -1,10 +1,10 @@
 -- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
--- Date        : Wed Oct 14 15:20:00 2020
+-- Date        : Wed Oct 14 13:39:48 2020
 -- Host        : Neptunium running 64-bit Ubuntu 18.04.5 LTS
--- Command     : write_vhdl -force -mode funcsim
---               /home/hahaha/riscv/SD_card/Aquila/test_4/aquila-master/hw/aquila_soc/aquila_soc.srcs/sources_1/bd/aquila_soc/ip/aquila_soc_auto_pc_0/aquila_soc_auto_pc_0_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim -rename_top aquila_soc_auto_pc_0 -prefix
+--               aquila_soc_auto_pc_0_ aquila_soc_auto_pc_0_sim_netlist.vhdl
 -- Design      : aquila_soc_auto_pc_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -143,8 +143,6 @@ entity aquila_soc_auto_pc_0_axi_protocol_converter_v2_1_17_axi_protocol_converte
   attribute C_TRANSLATION_MODE of aquila_soc_auto_pc_0_axi_protocol_converter_v2_1_17_axi_protocol_converter : entity is 2;
   attribute DowngradeIPIdentifiedWarnings : string;
   attribute DowngradeIPIdentifiedWarnings of aquila_soc_auto_pc_0_axi_protocol_converter_v2_1_17_axi_protocol_converter : entity is "yes";
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of aquila_soc_auto_pc_0_axi_protocol_converter_v2_1_17_axi_protocol_converter : entity is "axi_protocol_converter_v2_1_17_axi_protocol_converter";
   attribute P_AXI3 : integer;
   attribute P_AXI3 of aquila_soc_auto_pc_0_axi_protocol_converter_v2_1_17_axi_protocol_converter : entity is 1;
   attribute P_AXI4 : integer;

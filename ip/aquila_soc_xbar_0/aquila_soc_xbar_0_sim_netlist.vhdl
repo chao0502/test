@@ -1,10 +1,10 @@
 -- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
--- Tool Version: Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
--- Date        : Wed Oct 14 15:19:47 2020
--- Host        : Neptunium running 64-bit Ubuntu 18.04.5 LTS
--- Command     : write_vhdl -force -mode funcsim
---               /home/hahaha/riscv/SD_card/Aquila/test_4/aquila-master/hw/aquila_soc/aquila_soc.srcs/sources_1/bd/aquila_soc/ip/aquila_soc_xbar_0/aquila_soc_xbar_0_sim_netlist.vhdl
+-- Tool Version: Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+-- Date        : Tue Aug  4 15:43:27 2020
+-- Host        : Helium running 64-bit major release  (build 9200)
+-- Command     : write_vhdl -force -mode funcsim -rename_top aquila_soc_xbar_0 -prefix
+--               aquila_soc_xbar_0_ aquila_soc_xbar_0_sim_netlist.vhdl
 -- Design      : aquila_soc_xbar_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -63,8 +63,6 @@ entity aquila_soc_xbar_0_axi_crossbar_v2_1_18_addr_arbiter_sasd is
     s_axi_araddr : in STD_LOGIC_VECTOR ( 31 downto 0 );
     s_axi_awaddr : in STD_LOGIC_VECTOR ( 31 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of aquila_soc_xbar_0_axi_crossbar_v2_1_18_addr_arbiter_sasd : entity is "axi_crossbar_v2_1_18_addr_arbiter_sasd";
 end aquila_soc_xbar_0_axi_crossbar_v2_1_18_addr_arbiter_sasd;
 
 architecture STRUCTURE of aquila_soc_xbar_0_axi_crossbar_v2_1_18_addr_arbiter_sasd is
@@ -1362,8 +1360,6 @@ entity aquila_soc_xbar_0_axi_crossbar_v2_1_18_decerr_slave is
     aa_rready : in STD_LOGIC;
     \gen_no_arbiter.grant_rnw_reg_0\ : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of aquila_soc_xbar_0_axi_crossbar_v2_1_18_decerr_slave : entity is "axi_crossbar_v2_1_18_decerr_slave";
 end aquila_soc_xbar_0_axi_crossbar_v2_1_18_decerr_slave;
 
 architecture STRUCTURE of aquila_soc_xbar_0_axi_crossbar_v2_1_18_decerr_slave is
@@ -1550,8 +1546,6 @@ entity aquila_soc_xbar_0_axi_crossbar_v2_1_18_splitter is
     \m_ready_d_reg[0]_0\ : in STD_LOGIC;
     aclk : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of aquila_soc_xbar_0_axi_crossbar_v2_1_18_splitter : entity is "axi_crossbar_v2_1_18_splitter";
 end aquila_soc_xbar_0_axi_crossbar_v2_1_18_splitter;
 
 architecture STRUCTURE of aquila_soc_xbar_0_axi_crossbar_v2_1_18_splitter is
@@ -1744,8 +1738,6 @@ entity aquila_soc_xbar_0_axi_register_slice_v2_1_17_axic_register_slice is
     SR : in STD_LOGIC_VECTOR ( 0 to 0 );
     E : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of aquila_soc_xbar_0_axi_register_slice_v2_1_17_axic_register_slice : entity is "axi_register_slice_v2_1_17_axic_register_slice";
 end aquila_soc_xbar_0_axi_register_slice_v2_1_17_axic_register_slice;
 
 architecture STRUCTURE of aquila_soc_xbar_0_axi_register_slice_v2_1_17_axic_register_slice is
@@ -2961,8 +2953,6 @@ entity aquila_soc_xbar_0_axi_crossbar_v2_1_18_crossbar_sasd is
     s_axi_araddr : in STD_LOGIC_VECTOR ( 31 downto 0 );
     s_axi_awaddr : in STD_LOGIC_VECTOR ( 31 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of aquila_soc_xbar_0_axi_crossbar_v2_1_18_crossbar_sasd : entity is "axi_crossbar_v2_1_18_crossbar_sasd";
 end aquila_soc_xbar_0_axi_crossbar_v2_1_18_crossbar_sasd;
 
 architecture STRUCTURE of aquila_soc_xbar_0_axi_crossbar_v2_1_18_crossbar_sasd is
@@ -3371,8 +3361,6 @@ entity aquila_soc_xbar_0_axi_crossbar_v2_1_18_axi_crossbar is
   attribute C_S_AXI_WRITE_ACCEPTANCE of aquila_soc_xbar_0_axi_crossbar_v2_1_18_axi_crossbar : entity is 1;
   attribute DowngradeIPIdentifiedWarnings : string;
   attribute DowngradeIPIdentifiedWarnings of aquila_soc_xbar_0_axi_crossbar_v2_1_18_axi_crossbar : entity is "yes";
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of aquila_soc_xbar_0_axi_crossbar_v2_1_18_axi_crossbar : entity is "axi_crossbar_v2_1_18_axi_crossbar";
   attribute P_ADDR_DECODE : integer;
   attribute P_ADDR_DECODE of aquila_soc_xbar_0_axi_crossbar_v2_1_18_axi_crossbar : entity is 1;
   attribute P_AXI3 : integer;

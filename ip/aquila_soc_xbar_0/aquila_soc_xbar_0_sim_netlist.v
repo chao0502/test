@@ -1,10 +1,10 @@
 // Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
-// Tool Version: Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
-// Date        : Wed Oct 14 15:19:47 2020
-// Host        : Neptunium running 64-bit Ubuntu 18.04.5 LTS
-// Command     : write_verilog -force -mode funcsim
-//               /home/hahaha/riscv/SD_card/Aquila/test_4/aquila-master/hw/aquila_soc/aquila_soc.srcs/sources_1/bd/aquila_soc/ip/aquila_soc_xbar_0/aquila_soc_xbar_0_sim_netlist.v
+// Tool Version: Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+// Date        : Tue Aug  4 15:43:27 2020
+// Host        : Helium running 64-bit major release  (build 9200)
+// Command     : write_verilog -force -mode funcsim -rename_top aquila_soc_xbar_0 -prefix
+//               aquila_soc_xbar_0_ aquila_soc_xbar_0_sim_netlist.v
 // Design      : aquila_soc_xbar_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -305,7 +305,6 @@ module aquila_soc_xbar_0
         .s_axi_wvalid(s_axi_wvalid));
 endmodule
 
-(* ORIG_REF_NAME = "axi_crossbar_v2_1_18_addr_arbiter_sasd" *) 
 module aquila_soc_xbar_0_axi_crossbar_v2_1_18_addr_arbiter_sasd
    (aa_grant_any,
     m_valid_i,
@@ -1385,13 +1384,13 @@ endmodule
 (* C_NUM_MASTER_SLOTS = "2" *) (* C_NUM_SLAVE_SLOTS = "1" *) (* C_R_REGISTER = "1" *) 
 (* C_S_AXI_ARB_PRIORITY = "0" *) (* C_S_AXI_BASE_ID = "0" *) (* C_S_AXI_READ_ACCEPTANCE = "1" *) 
 (* C_S_AXI_SINGLE_THREAD = "1" *) (* C_S_AXI_THREAD_ID_WIDTH = "0" *) (* C_S_AXI_WRITE_ACCEPTANCE = "1" *) 
-(* DowngradeIPIdentifiedWarnings = "yes" *) (* ORIG_REF_NAME = "axi_crossbar_v2_1_18_axi_crossbar" *) (* P_ADDR_DECODE = "1" *) 
-(* P_AXI3 = "1" *) (* P_AXI4 = "0" *) (* P_AXILITE = "2" *) 
-(* P_AXILITE_SIZE = "3'b010" *) (* P_FAMILY = "kintex7" *) (* P_INCR = "2'b01" *) 
-(* P_LEN = "8" *) (* P_LOCK = "1" *) (* P_M_AXI_ERR_MODE = "64'b0000000000000000000000000000000000000000000000000000000000000000" *) 
-(* P_M_AXI_SUPPORTS_READ = "2'b11" *) (* P_M_AXI_SUPPORTS_WRITE = "2'b11" *) (* P_ONES = "65'b11111111111111111111111111111111111111111111111111111111111111111" *) 
-(* P_RANGE_CHECK = "1" *) (* P_S_AXI_BASE_ID = "64'b0000000000000000000000000000000000000000000000000000000000000000" *) (* P_S_AXI_HIGH_ID = "64'b0000000000000000000000000000000000000000000000000000000000000000" *) 
-(* P_S_AXI_SUPPORTS_READ = "1'b1" *) (* P_S_AXI_SUPPORTS_WRITE = "1'b1" *) 
+(* DowngradeIPIdentifiedWarnings = "yes" *) (* P_ADDR_DECODE = "1" *) (* P_AXI3 = "1" *) 
+(* P_AXI4 = "0" *) (* P_AXILITE = "2" *) (* P_AXILITE_SIZE = "3'b010" *) 
+(* P_FAMILY = "kintex7" *) (* P_INCR = "2'b01" *) (* P_LEN = "8" *) 
+(* P_LOCK = "1" *) (* P_M_AXI_ERR_MODE = "64'b0000000000000000000000000000000000000000000000000000000000000000" *) (* P_M_AXI_SUPPORTS_READ = "2'b11" *) 
+(* P_M_AXI_SUPPORTS_WRITE = "2'b11" *) (* P_ONES = "65'b11111111111111111111111111111111111111111111111111111111111111111" *) (* P_RANGE_CHECK = "1" *) 
+(* P_S_AXI_BASE_ID = "64'b0000000000000000000000000000000000000000000000000000000000000000" *) (* P_S_AXI_HIGH_ID = "64'b0000000000000000000000000000000000000000000000000000000000000000" *) (* P_S_AXI_SUPPORTS_READ = "1'b1" *) 
+(* P_S_AXI_SUPPORTS_WRITE = "1'b1" *) 
 module aquila_soc_xbar_0_axi_crossbar_v2_1_18_axi_crossbar
    (aclk,
     aresetn,
@@ -1789,7 +1788,6 @@ module aquila_soc_xbar_0_axi_crossbar_v2_1_18_axi_crossbar
         .s_axi_wvalid(s_axi_wvalid));
 endmodule
 
-(* ORIG_REF_NAME = "axi_crossbar_v2_1_18_crossbar_sasd" *) 
 module aquila_soc_xbar_0_axi_crossbar_v2_1_18_crossbar_sasd
    (m_axi_awvalid,
     Q,
@@ -2098,7 +2096,6 @@ module aquila_soc_xbar_0_axi_crossbar_v2_1_18_crossbar_sasd
         .s_axi_wvalid(s_axi_wvalid));
 endmodule
 
-(* ORIG_REF_NAME = "axi_crossbar_v2_1_18_decerr_slave" *) 
 module aquila_soc_xbar_0_axi_crossbar_v2_1_18_decerr_slave
    (mi_bvalid,
     s_ready_i_reg,
@@ -2296,7 +2293,6 @@ module aquila_soc_xbar_0_axi_crossbar_v2_1_18_decerr_slave
         .O(\gen_no_arbiter.m_valid_i_reg_0 ));
 endmodule
 
-(* ORIG_REF_NAME = "axi_crossbar_v2_1_18_splitter" *) 
 module aquila_soc_xbar_0_axi_crossbar_v2_1_18_splitter
    (s_axi_awready_i,
     m_ready_d,
@@ -2460,7 +2456,6 @@ module aquila_soc_xbar_0_axi_crossbar_v2_1_18_splitter__parameterized0
         .R(1'b0));
 endmodule
 
-(* ORIG_REF_NAME = "axi_register_slice_v2_1_17_axic_register_slice" *) 
 module aquila_soc_xbar_0_axi_register_slice_v2_1_17_axic_register_slice
    (sr_rvalid,
     aa_rready,

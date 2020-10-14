@@ -1,10 +1,10 @@
 // Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
-// Date        : Wed Oct 14 15:19:36 2020
+// Date        : Wed Oct 14 13:39:08 2020
 // Host        : Neptunium running 64-bit Ubuntu 18.04.5 LTS
-// Command     : write_verilog -force -mode synth_stub
-//               /home/hahaha/riscv/SD_card/Aquila/test_4/aquila-master/hw/aquila_soc/aquila_soc.srcs/sources_1/bd/aquila_soc/ip/aquila_soc_axi_uartlite_0_0/aquila_soc_axi_uartlite_0_0_stub.v
+// Command     : write_verilog -force -mode synth_stub -rename_top aquila_soc_axi_uartlite_0_0 -prefix
+//               aquila_soc_axi_uartlite_0_0_ aquila_soc_axi_uartlite_0_0_stub.v
 // Design      : aquila_soc_axi_uartlite_0_0
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7k325tffg900-2
